@@ -15,6 +15,10 @@
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (ISA98
+      (FullPartName "ISA98.Normal")
+      (LibraryName "F:\CADENCE_LIB\MY_OLB.OLB")
+      (DeviceIndex "0"))
     (VL82C311
       (FullPartName "VL82C311.Normal")
       (LibraryName "F:\CADENCE_LIB\MY_OLB.OLB")
@@ -43,41 +47,26 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "F:\hanxu_doc\SCH\386_Main_board\SCH\386_main_board.dsn")
-      (Path "Design Resources"
-         "F:\hanxu_doc\SCH\386_Main_board\SCH\386_main_board.dsn" "SCHEMATIC1")
-      (Path "Design Resources"
-         "F:\hanxu_doc\SCH\386_Main_board\SCH\386_main_board.dsn" "Design Cache")
+      (Path "Design Resources" ".\386_main_board.dsn")
+      (Path "Design Resources" ".\386_main_board.dsn" "SCHEMATIC1")
+      (Path "Design Resources" ".\386_main_board.dsn" "Design Cache")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" "f:\cadence_lib\my_olb.olb")
-      (Select "Design Resources"
-         "F:\hanxu_doc\SCH\386_Main_board\SCH\386_main_board.dsn" "Design Cache"
-         "VL82C311"))
+      (Select "Design Resources" ".\386_main_board.dsn" "Design Cache" "ISA98"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 867"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 243 0 867"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -30 50 1694 50 519")
-        (Scroll "1142 889")
+        (Scroll "1744 267")
         (Zoom "168")
         (Occurrence "/"))
       (Path "F:\HANXU_DOC\SCH\386_MAIN_BOARD\SCH\386_MAIN_BOARD.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "PAGE1"))
-    (Doc
-      (Type "COrPartDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 100 1195 100 569")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "821 1039")
-        (Zoom "304"))
-      (Path "F:\CADENCE_LIB\MY_OLB.OLB")
-      (Package "VL82C311"))))
+      (Page "PAGE1")))
+  (MPSSessionName "hanx"))
