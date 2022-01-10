@@ -15,6 +15,23 @@
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (GND
+      (LibraryName
+         "D:\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "D:\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (74HC138
+      (FullPartName "74HC138.Normal")
+      (LibraryName "F:\CADENCE_LIB\MY_OLB.OLB")
+      (DeviceIndex "0"))
+    (74HC245
+      (FullPartName "74HC245.Normal")
+      (LibraryName "F:\CADENCE_LIB\MY_OLB.OLB")
+      (DeviceIndex "0"))
     (ISA98
       (FullPartName "ISA98.Normal")
       (LibraryName "F:\CADENCE_LIB\MY_OLB.OLB")
@@ -24,10 +41,6 @@
       (LibraryName "F:\CADENCE_LIB\MY_OLB.OLB")
       (DeviceIndex "0"))
     (VCC_BAR
-      (LibraryName
-         "D:\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (GND
       (LibraryName
          "D:\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
@@ -52,18 +65,18 @@
       (Path "Design Resources" ".\386_main_board.dsn" "Design Cache")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library" "f:\cadence_lib\my_olb.olb")
-      (Select "Design Resources" ".\386_main_board.dsn" "Design Cache" "ISA98"))
+      (Select "Design Resources" "Library" "f:\cadence_lib\my_olb.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 243 0 867"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 305 0 867"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -30 50 1694 50 519")
-        (Scroll "1744 267")
+        (Scroll "1873 425")
         (Zoom "168")
         (Occurrence "/"))
       (Path "F:\HANXU_DOC\SCH\386_MAIN_BOARD\SCH\386_MAIN_BOARD.DSN")
